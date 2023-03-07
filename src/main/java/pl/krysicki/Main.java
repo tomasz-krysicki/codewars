@@ -1,4 +1,4 @@
-package pl.krysicki.kyu_8;
+package pl.krysicki;
 
 public class Main {
     public static void main(String[] args) {}
