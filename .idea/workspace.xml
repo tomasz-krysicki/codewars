@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf7ac7c9-b9ac-40ba-a2a4-73d705653fe4" name="Changes" comment="More kata completed (all 8 kyu level)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Grasshopper_Sumation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/krysicki/kyu_8/FindFistNonConsecutiveNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/krysicki/kyu_8/Grasshopper_CheckForFactor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/krysicki/kyu_8/Grasshopper_DebugCelsiusConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/krysicki/kyu_8/Grasshopper_PersonalizedMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Grasshopper_DebugCelsiusConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Grasshopper_PersonalizedMessageTest.java" afterDir="false" />
+    <list default="true" id="cf7ac7c9-b9ac-40ba-a2a4-73d705653fe4" name="Changes" comment="More kata added.&#10;Total completed:&#10;8 kyu level - 16">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/krysicki/kyu_7/HighestAndLowest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/krysicki/kyu_7/IsThisTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/krysicki/kyu_7/StringEndsWith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/krysicki/kyu_8/ConvertStringToNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/krysicki/kyu_8/FindSmallestIntegerInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/krysicki/kyu_7/HighestAndLowestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/krysicki/kyu_7/IsThisTriangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/krysicki/kyu_7/StringEndsWithTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/krysicki/kyu_8/ConvertStringToNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/krysicki/kyu_8/FindSmallestIntegerInArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/krysicki/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/krysicki/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Grasshopper_DebugCelsiusConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/krysicki/kyu_8/Grasshopper_DebugCelsiusConverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Grasshopper_PersonalizedMessageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/krysicki/kyu_8/Grasshopper_PersonalizedMessageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +29,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -48,34 +54,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "last_opened_file_path": "D:/pl.krysicki/external/MagdalenaGorska/DungeonMap",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/pl.krysicki/external/MagdalenaGorska/DungeonMap&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
       <recent name="junit.framework.TestCase" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pl.krysicki.kyu_8" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.krysicki.kyu_7" />
+      <recent name="pl.krysicki.kyu_8" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Grasshopper_Sumation">
-    <configuration name="Grasshopper_DebugCelsiusConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.krysicki.kyu_8.Grasshopper_DebugCelsiusConverter" />
+  <component name="RunManager" selected="JUnit.StringEndsWithTest">
+    <configuration name="StringEndsWith" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.krysicki.kyu_7.StringEndsWith" />
       <module name="codewars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.krysicki.kyu_8.*" />
+          <option name="PATTERN" value="pl.krysicki.kyu_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,8 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Grasshopper_PersonalizedMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.krysicki.kyu_8.Grasshopper_PersonalizedMessage" />
+    <configuration name="ConvertStringToNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codewars" />
       <extension name="coverage">
         <pattern>
@@ -92,31 +105,54 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Grasshopper_Sumation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.krysicki.kyu_8.Grasshopper_Sumation" />
-      <module name="codewars" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Grasshopper_PersonalizedMessageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codewars" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Grasshopper_PersonalizedMessageTest" />
+      <option name="PACKAGE_NAME" value="pl.krysicki.kyu_8" />
+      <option name="MAIN_CLASS_NAME" value="pl.krysicki.kyu_8.ConvertStringToNumberTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Grasshopper_PersonalizedMessageTest.basicTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IsThisTriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codewars" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Grasshopper_PersonalizedMessageTest" />
-      <option name="METHOD_NAME" value="basicTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.krysicki.kyu_7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.krysicki.kyu_7" />
+      <option name="MAIN_CLASS_NAME" value="pl.krysicki.kyu_7.IsThisTriangleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringEndsWithTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codewars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.krysicki.kyu_7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.krysicki.kyu_7" />
+      <option name="MAIN_CLASS_NAME" value="pl.krysicki.kyu_7.StringEndsWithTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringEndsWithTest.staticTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codewars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.krysicki.kyu_7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.krysicki.kyu_7" />
+      <option name="MAIN_CLASS_NAME" value="pl.krysicki.kyu_7.StringEndsWithTest" />
+      <option name="METHOD_NAME" value="staticTests" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Grasshopper_Sumation" />
-        <item itemvalue="JUnit.Grasshopper_PersonalizedMessageTest" />
-        <item itemvalue="Application.Grasshopper_PersonalizedMessage" />
-        <item itemvalue="JUnit.Grasshopper_PersonalizedMessageTest.basicTests" />
-        <item itemvalue="Application.Grasshopper_DebugCelsiusConverter" />
+        <item itemvalue="JUnit.StringEndsWithTest" />
+        <item itemvalue="JUnit.StringEndsWithTest.staticTests" />
+        <item itemvalue="Application.StringEndsWith" />
+        <item itemvalue="JUnit.IsThisTriangleTest" />
+        <item itemvalue="JUnit.ConvertStringToNumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678794794381</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="More kata added.&#10;Total completed:&#10;8 kyu level - 16">
+      <created>1679468520237</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679468520237</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,9 +229,19 @@
     <MESSAGE value="Codewars completed kata - initial commit" />
     <MESSAGE value="Next kata (8 kyu level) completed" />
     <MESSAGE value="More kata completed (all 8 kyu level)" />
-    <option name="LAST_COMMIT_MESSAGE" value="More kata completed (all 8 kyu level)" />
+    <MESSAGE value="More kata added.&#10;Total completed:&#10;8 kyu level - 16" />
+    <option name="LAST_COMMIT_MESSAGE" value="More kata added.&#10;Total completed:&#10;8 kyu level - 16" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/codewars$Grasshopper_DebugCelsiusConverterTest.ic" NAME="Grasshopper_DebugCelsiusConverterTest Coverage Results" MODIFIED="1679401851589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/codewars$FindSmallestIntegerInArrayTest.ic" NAME="FindSmallestIntegerInArrayTest Coverage Results" MODIFIED="1679583353201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pl.krysicki.kyu_8.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/codewars$ConvertStringToNumberTest.ic" NAME="ConvertStringToNumberTest Coverage Results" MODIFIED="1679588207595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pl.krysicki.kyu_8.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/codewars$ConvertStringToNumberTest_test1.ic" NAME="ConvertStringToNumberTest.test1 Coverage Results" MODIFIED="1679587799502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pl.krysicki.kyu_8.*</FILTER>
+    </SUITE>
   </component>
 </project>

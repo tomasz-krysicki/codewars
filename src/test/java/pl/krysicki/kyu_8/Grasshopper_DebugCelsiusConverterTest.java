@@ -1,3 +1,5 @@
+package pl.krysicki.kyu_8;
+
 import org.junit.Test;
 import pl.krysicki.kyu_8.Grasshopper_DebugCelsiusConverter;
 
